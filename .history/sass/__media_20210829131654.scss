@@ -1,0 +1,14 @@
+@media (max-width: 991px) {
+    html {
+        font-size: 35%;
+    }
+    header {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-bar {
+        display: initial;
+    }
+}

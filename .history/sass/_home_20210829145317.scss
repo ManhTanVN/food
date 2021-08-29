@@ -1,0 +1,21 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background: url(../assets/images/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+
+    &__content{
+        flex: 1 1 40rem;
+    }
+    &__image {
+        flex: 1 1 40rem;
+
+    }
+    &__image img {
+        width: 100%;
+    }
+}

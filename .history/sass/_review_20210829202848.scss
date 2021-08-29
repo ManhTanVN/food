@@ -1,0 +1,9 @@
+.review{
+    & .box-container {
+        & .box {
+            text-align: center;
+            padding: 2rem;
+            border: .1rem solid rgba(0,0,0,.1);
+        }
+    }
+}

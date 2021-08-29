@@ -1,0 +1,11 @@
+#scroll-top {
+    position: fixed;
+    top: 60%;
+    right: 2rem;
+    padding: .5rem 1rem;
+    font-size: 4rem;
+    background: $color-red;
+    color: #fff;
+    border-radius: .5rem;
+    transition: 1s linear;
+}

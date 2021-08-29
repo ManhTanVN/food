@@ -1,0 +1,11 @@
+.footer {
+    background: #000;
+    text-align: center;
+
+    & .share {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+}

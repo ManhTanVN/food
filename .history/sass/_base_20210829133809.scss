@@ -1,0 +1,33 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    border: 0; outline: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+*::selection {
+    background: $color-red;
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    @include responsive (tablet) {
+        font-size: 55%;
+    }
+    
+    @include responsive (samll) {
+        font-size: 20%;
+
+    }
+}
+
+body {
+    background: #f7f7ff;
+}

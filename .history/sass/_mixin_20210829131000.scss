@@ -1,0 +1,5 @@
+@mixin responsive($breakpoint) {
+    @if $beakpoint == tablet {
+        @media (max-width:991px) {@contain;}
+    }
+}

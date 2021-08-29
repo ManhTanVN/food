@@ -1,0 +1,9 @@
+header .navbar a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #666;
+}
+
+header .navbar:hover {
+    color: $color-red;
+}

@@ -1,0 +1,18 @@
+header .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #666;
+}
+header .logo i {
+    padding-right: .5rem;
+    color: $color-red;
+}
+header .navbar a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #666;
+}
+
+header .navbar:hover {
+    color: $color-red;
+}
